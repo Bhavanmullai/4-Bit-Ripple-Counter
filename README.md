@@ -24,9 +24,11 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
- Open Quartus software and create a new Verilog file. Paste the code and save it. Compile the program to check for errors.
- Generate the RTL schematic via the RTL Viewer and save the logic diagram. Use the Waveform Editor to assign nodes for clk, rstn, and
- out. Simulate the design with different clk and rstn combinations to generate the timing diagram, and save the results.
+ 1.Open Quartus software and create a new Verilog file. Paste the code and save it.
+ 2.Compile the program to check for errors.
+ 3.Generate the RTL schematic via the RTL Viewer and save the logic diagram. Use the Waveform Editor to assign nodes for clk, rstn, and
+ out. 
+ 4.Simulate the design with different clk and rstn combinations to generate the timing diagram, and save the results.
 
 **PROGRAM**
 ~~~
@@ -43,7 +45,7 @@ end
 endmodule
 ~~~
 
- Developed by:Bhavan M S RegisterNumber:25007607
+ Developed by:Bhavan M S RegisterNumber:212225100004
 
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
