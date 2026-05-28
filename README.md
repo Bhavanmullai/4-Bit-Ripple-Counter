@@ -29,7 +29,7 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
  out. Simulate the design with different clk and rstn combinations to generate the timing diagram, and save the results.
 
 **PROGRAM**
-
+~~~
  module ex12(out,clk,rst);
 input clk,rst;
 output reg [3:0]out;
@@ -41,6 +41,7 @@ begin
      out <= out-1;
 end
 endmodule
+~~~
 
  Developed by:Bhavan M S RegisterNumber:25007607
 
